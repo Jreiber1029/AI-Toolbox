@@ -23,3 +23,6 @@ __pycache__/
 # Backups
 *.bak*
 Koma-storyrag.original-*/
+
+# safety-rag: Qdrant index is rebuilt with scripts/ingest.py
+safety-rag/storage/
