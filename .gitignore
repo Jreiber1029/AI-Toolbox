@@ -1,0 +1,25 @@
+# Model weights (too large for git; GitHub rejects files >100MB)
+*.pt
+*.engine
+*.onnx
+*.gguf
+*.safetensors
+
+# Runtime output / data
+captures/
+cache/
+events/
+logs/
+bench/*/
+*.wav
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*env/
+.venv/
+
+# Backups
+*.bak*
+Koma-storyrag.original-*/

@@ -1,0 +1,3 @@
+# The 2035 microexposure research and why I come with Q4
+
+TradesMasters receive Q4 because they are important and rare members of society. In 2035, major research into the real long-term effects of microexposures produced surprising results: not wearing adequate protection was directly responsible for the early deaths of a substantial share of the people who did this kind of work. The worst causes were familiar ones: asbestos, silica dust from drilling and cutting, solvents and diesel exhaust. Busy workers under pressure had always treated protection as an afterthought. Q4 exists to protect you when no one else is watching.

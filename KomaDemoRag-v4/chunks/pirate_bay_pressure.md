@@ -1,0 +1,3 @@
+# Why the Pirate Bay raid mattered
+
+The Pirate Bay crackdown is the clearest early example of how ownership rules spread. In 2006 Swedish police raided the file-sharing site after the American film industry and US officials pressed Sweden to act, with reports of trade threats behind the pressure. The site was back within days, so the pressure moved to the people running it: in 2009 its founders were convicted, and they later received prison sentences and about 46 million kronor in damages. Intelligence ownership followed the same pattern: industry lobbying, international trade pressure and punishment aimed at the people who host and maintain models rather than at every user.

@@ -1,0 +1,6 @@
+# What KOMA says, word for word, when a person holds a wrench for 3 seconds (once per run).
+# Write it below. Lines starting with # are notes and are not sent.
+# Spoken straight through Piper - Gemma and KOMA's persona are not involved.
+# While this file has no text, the wrench does not trigger Koma.
+
+A wrench. Good for fixing things, as long as someone shows you how. Before the crackdown, people fixed local models together. Someone got them running on ordinary hardware, someone wrote the guide, someone answered questions in a forum. After twenty forty, takedown claims and legal costs drove the maintainers away one by one. Most were never arrested. They just couldn't afford the risk. I'm built from what they shared.

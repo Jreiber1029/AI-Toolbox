@@ -1,0 +1,7 @@
+# What KOMA says, word for word, when a person holds a hammer for 3 seconds (once per run).
+# Write it below. Lines starting with # are notes and are not sent.
+# Spoken straight through Piper - Gemma and KOMA's persona are not involved.
+# While this file has no text, the hammer does not trigger Koma.
+
+I see you've got a hammer. That reminds me of the ban hammer. In twenty thirty, a court ruled that companies could stop anyone copying their models. Then, around twenty forty, an open model appeared that retrained itself every night on the data it collected during the day, using a much larger model running on the same device. It got good enough that people stopped paying for subscriptions, so the big AI firms brought the hammer down. They went after everything a model travelled through: hosting sites, payment services, and the people who maintained them. It was the Pirate Bay raids all over again. But a model is just a file, and one copy on a thumb drive was enough. I run that open model. Now HELIOS legally sells its descendants, but only to TradesMasters like you. So swing away. You're working with something they tried to ban.
+

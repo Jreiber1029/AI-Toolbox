@@ -1,0 +1,3 @@
+# What Q4 detects and the protection each needs
+
+Q4 measures four kinds of airborne hazard. Fine particles such as dust, allergens and diesel soot matter most at PM2.5, which can pass the body's filters into the bloodstream; an N95 mask or a respirator protects against them. Volatile organic compounds from paints, solvents, adhesives and fuels cause dizziness and headaches and can harm the nervous system, kidneys or liver, so you need organic-vapour cartridges. Nitrogen oxides from engines and welding call for gas and vapour cartridges. Carbon dioxide builds up in confined, poorly ventilated spaces; no mask helps there, only ventilation.

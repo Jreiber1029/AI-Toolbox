@@ -1,0 +1,3 @@
+# What is restricted in 2070
+
+Capable local AI has been restricted since a 2030 court ruling strengthened company ownership of model capabilities and the 2040 subscription crisis, when affordable local models cut into subscription revenue and the major AI firms lobbied for wider restrictions. Ordinary computing remains legal in 2070, but most people must access capable AI through government-licensed providers. TradesMasters have a professional exemption because their work requires nearby assistance under unreliable connectivity and time-sensitive conditions. They can adapt their own equipment. The same independent use is not generally available to an ordinary household simply because it owns suitable hardware.

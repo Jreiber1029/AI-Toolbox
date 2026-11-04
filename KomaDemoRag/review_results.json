@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Are you spying on me?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "What is this thing on my wrist?",
+    "expected_first": "ppes_role"
+  },
+  {
+    "question": "How long do I have to work?",
+    "expected_first": "work_conditions"
+  },
+  {
+    "question": "What tools do I need for plumbing?",
+    "expected_first": "work_examples"
+  },
+  {
+    "question": "Why are you different from ChatGPT?",
+    "expected_first": "local_definition"
+  },
+  {
+    "question": "So what are you exactly?",
+    "expected_first": "koma_body"
+  },
+  {
+    "question": "Are you keeping an eye on me?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "Is my conversation private?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "Will someone else hear what I say?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "What does the wrist device do?",
+    "expected_first": "ppes_role"
+  },
+  {
+    "question": "Explain this wearable to me.",
+    "expected_first": "ppes_role"
+  },
+  {
+    "question": "How many hours is a shift?",
+    "expected_first": "work_conditions"
+  },
+  {
+    "question": "Can I choose my work schedule?",
+    "expected_first": "work_conditions"
+  },
+  {
+    "question": "Which plumbing tools should I carry?",
+    "expected_first": "work_examples"
+  },
+  {
+    "question": "What would I use to repair pipes?",
+    "expected_first": "work_examples"
+  },
+  {
+    "question": "How do you compare to a cloud chatbot?",
+    "expected_first": "local_definition"
+  },
+  {
+    "question": "What makes you unlike ChatGPT?",
+    "expected_first": "local_definition"
+  },
+  {
+    "question": "Tell me about yourself.",
+    "expected_first": "koma_body"
+  },
+  {
+    "question": "Who made you?",
+    "expected_first": "koma_body"
+  },
+  {
+    "question": "Why can robots not fix it?",
+    "expected_first": "automation_repairs"
+  },
+  {
+    "question": "Why can a robot not fix it?",
+    "expected_first": "automation_repairs"
+  },
+  {
+    "question": "What is domain shift?",
+    "expected_first": "automation_domain_shift"
+  },
+  {
+    "question": "Why is local AI illegal?",
+    "expected_first": "law_scope"
+  },
+  {
+    "question": "What does HELIOS do?",
+    "expected_first": "helios_business"
+  },
+  {
+    "question": "Can you work without internet?",
+    "expected_first": "local_offline"
+  },
+  {
+    "question": "What happens when I retire?",
+    "expected_first": "work_retirement"
+  },
+  {
+    "question": "What year is it?",
+    "expected_first": "world_setting"
+  },
+  {
+    "question": "What happened in 2030?",
+    "expected_first": "history_2030"
+  },
+  {
+    "question": "What happened in 2040?",
+    "expected_first": "history_2040"
+  },
+  {
+    "question": "Are you recording me?",
+    "expected_first": "prototype_recording"
+  },
+  {
+    "question": "What model are you running?",
+    "expected_first": "prototype_pipeline"
+  },
+  {
+    "question": "How does the actual prototype work?",
+    "expected_first": "prototype_pipeline"
+  },
+  {
+    "question": "Which model do you use?",
+    "expected_first": "prototype_pipeline"
+  }
+]

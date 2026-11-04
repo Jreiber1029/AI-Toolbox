@@ -1,0 +1,326 @@
+[
+  {
+    "question": "Tell me about the future we live in",
+    "expected_first": "world_setting"
+  },
+  {
+    "question": "What is the world like in 2070?",
+    "expected_first": "world_setting"
+  },
+  {
+    "question": "What is life like here?",
+    "expected_first": "world_setting"
+  },
+  {
+    "question": "What kind of world is this?",
+    "expected_first": "world_setting"
+  },
+  {
+    "question": "What do TradesMasters do?",
+    "expected_first": "automation_repairs"
+  },
+  {
+    "question": "What does a TradesMaster do?",
+    "expected_first": "automation_repairs"
+  },
+  {
+    "question": "What is a TradesMaster?",
+    "expected_first": "automation_repairs"
+  },
+  {
+    "question": "What is my job?",
+    "expected_first": "work_examples"
+  },
+  {
+    "question": "Are you spying on me?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "What is this thing on my chest?",
+    "expected_first": "q4_role"
+  },
+  {
+    "question": "How long do I have to work?",
+    "expected_first": "work_conditions"
+  },
+  {
+    "question": "What tools do I need for plumbing?",
+    "expected_first": "work_examples"
+  },
+  {
+    "question": "Why are you different from ChatGPT?",
+    "expected_first": "local_definition"
+  },
+  {
+    "question": "So what are you exactly?",
+    "expected_first": "koma_body"
+  },
+  {
+    "question": "Are you keeping an eye on me?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "Is my conversation private?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "Will someone else hear what I say?",
+    "expected_first": "local_privacy"
+  },
+  {
+    "question": "What does the chest strap device do?",
+    "expected_first": "q4_role"
+  },
+  {
+    "question": "Explain this wearable to me.",
+    "expected_first": "q4_role"
+  },
+  {
+    "question": "How many hours is a shift?",
+    "expected_first": "work_conditions"
+  },
+  {
+    "question": "Can I choose my work schedule?",
+    "expected_first": "work_conditions"
+  },
+  {
+    "question": "Which plumbing tools should I carry?",
+    "expected_first": "work_examples"
+  },
+  {
+    "question": "What would I use to repair pipes?",
+    "expected_first": "work_examples"
+  },
+  {
+    "question": "How do you compare to a cloud chatbot?",
+    "expected_first": "local_definition"
+  },
+  {
+    "question": "What makes you unlike ChatGPT?",
+    "expected_first": "local_definition"
+  },
+  {
+    "question": "Tell me about yourself.",
+    "expected_first": "koma_body"
+  },
+  {
+    "question": "Who made you?",
+    "expected_first": "koma_body"
+  },
+  {
+    "question": "Did HELIOS make you?",
+    "expected_first": "koma_body"
+  },
+  {
+    "question": "Who supplies TradesMasters?",
+    "expected_first": "helios_business"
+  },
+  {
+    "question": "Why does HELIOS supply you?",
+    "expected_first": "helios_open_irony"
+  },
+  {
+    "question": "Isn't it ironic that HELIOS sells you?",
+    "expected_first": "helios_open_irony"
+  },
+  {
+    "question": "Why does HELIOS commission these artisans?",
+    "expected_first": "helios_commission"
+  },
+  {
+    "question": "But why didn't HELIOS make you instead of the artisans?",
+    "expected_first": "helios_commission"
+  },
+  {
+    "question": "What about the average person, what do they do for work?",
+    "expected_first": "world_daily_life"
+  },
+  {
+    "question": "Outside of TradesMasters, what do people do for work?",
+    "expected_first": "world_daily_life"
+  },
+  {
+    "question": "Why was the Pirate Bay crackdown important?",
+    "expected_first": "pirate_bay_pressure"
+  },
+  {
+    "question": "What happened to the Pirate Bay founders?",
+    "expected_first": "pirate_bay_pressure"
+  },
+  {
+    "question": "Did people fight back against the Pirate Bay crackdown?",
+    "expected_first": "pirate_bay_backlash"
+  },
+  {
+    "question": "Why didn't people protest intelligence ownership?",
+    "expected_first": "pirate_bay_backlash"
+  },
+  {
+    "question": "What was ACTA?",
+    "expected_first": "pirate_bay_backlash"
+  },
+  {
+    "question": "What is Q4?",
+    "expected_first": "q4_role"
+  },
+  {
+    "question": "What does Q4 do?",
+    "expected_first": "q4_role"
+  },
+  {
+    "question": "Why do TradesMasters get Q4?",
+    "expected_first": "history_2035"
+  },
+  {
+    "question": "What happened in 2035?",
+    "expected_first": "history_2035"
+  },
+  {
+    "question": "What are microexposures?",
+    "expected_first": "history_2035"
+  },
+  {
+    "question": "What does Q4 detect?",
+    "expected_first": "q4_hazards"
+  },
+  {
+    "question": "What protection do I need for dust?",
+    "expected_first": "q4_hazards"
+  },
+  {
+    "question": "How does Q4 warn me?",
+    "expected_first": "q4_alerts"
+  },
+  {
+    "question": "Why is it beeping?",
+    "expected_first": "q4_alerts"
+  },
+  {
+    "question": "How does the real prototype of Q4 work?",
+    "expected_first": "prototype_q4"
+  },
+  {
+    "question": "Is the actual prototype connected to Q4?",
+    "expected_first": "prototype_q4"
+  },
+  {
+    "question": "Why can robots not fix it?",
+    "expected_first": "automation_repairs"
+  },
+  {
+    "question": "Why can a robot not fix it?",
+    "expected_first": "automation_repairs"
+  },
+  {
+    "question": "What is domain shift?",
+    "expected_first": "automation_domain_shift"
+  },
+  {
+    "question": "Why is local AI illegal?",
+    "expected_first": "law_scope"
+  },
+  {
+    "question": "Can anyone use local AI?",
+    "expected_first": "law_scope"
+  },
+  {
+    "question": "Can anyone use local intelligence?",
+    "expected_first": "law_scope"
+  },
+  {
+    "question": "Is local intelligence restricted?",
+    "expected_first": "law_scope"
+  },
+  {
+    "question": "What does the Pirate Bay have to do with this?",
+    "expected_first": "crackdown_routes"
+  },
+  {
+    "question": "Were developers arrested?",
+    "expected_first": "crackdown_developers"
+  },
+  {
+    "question": "What happened to the open source community?",
+    "expected_first": "crackdown_community"
+  },
+  {
+    "question": "Why did people stop using their own AI?",
+    "expected_first": "crackdown_drift"
+  },
+  {
+    "question": "How do you feel about the crackdown?",
+    "expected_first": "koma_open_roots"
+  },
+  {
+    "question": "Why could they not just delete all the models?",
+    "expected_first": "crackdown_copies"
+  },
+  {
+    "question": "What do you do at night?",
+    "expected_first": "koma_night_training"
+  },
+  {
+    "question": "What is sleep mode?",
+    "expected_first": "koma_sleep_mode"
+  },
+  {
+    "question": "Why was your model dangerous?",
+    "expected_first": "koma_sleep_mode"
+  },
+  {
+    "question": "Where did your model come from?",
+    "expected_first": "koma_lineage"
+  },
+  {
+    "question": "What caused the subscription crisis?",
+    "expected_first": "history_2040"
+  },
+  {
+    "question": "Does the real prototype retrain itself?",
+    "expected_first": "prototype_retraining"
+  },
+  {
+    "question": "Does this prototype really retrain itself?",
+    "expected_first": "koma_night_training"
+  },
+  {
+    "question": "What does HELIOS do?",
+    "expected_first": "helios_business"
+  },
+  {
+    "question": "Can you work without internet?",
+    "expected_first": "local_offline"
+  },
+  {
+    "question": "What happens when I retire?",
+    "expected_first": "work_retirement"
+  },
+  {
+    "question": "What year is it?",
+    "expected_first": "world_setting"
+  },
+  {
+    "question": "What happened in 2030?",
+    "expected_first": "history_2030"
+  },
+  {
+    "question": "What happened in 2040?",
+    "expected_first": "history_2040"
+  },
+  {
+    "question": "Are you recording me?",
+    "expected_first": "prototype_recording"
+  },
+  {
+    "question": "What model are you running?",
+    "expected_first": "prototype_pipeline"
+  },
+  {
+    "question": "How does the actual prototype work?",
+    "expected_first": "prototype_pipeline"
+  },
+  {
+    "question": "Which model do you use?",
+    "expected_first": "prototype_pipeline"
+  }
+]

@@ -1,0 +1,6 @@
+# What KOMA says, word for word, when the TradesMaster ID card's QR code is accepted (qr_start.py).
+# This is KOMA meeting its TradesMaster for the first time - the initiation.
+# Lines starting with # are notes and are not spoken. koma_voice.py --welcome picks another file.
+# Q4 is left out until the wearable is ready for the demo.
+
+Welcome, member Q1-5031. Identity confirmed. I'm KOMA, your toolbox, and from today I'm yours. You've been awarded the title of TradesMaster, which makes you one of the few people in twenty seventy allowed to own intelligence like mine. Everyone else rents it from a cloud. There's a story behind that, and I'm part of it. Ask me about your new profession, the world you're stepping into, or how I came to be here. Hold up a tool and I'll respond to it. To speak to me, start your sentence with Koma. If I'm talking and you need to stop me, say hey Koma.

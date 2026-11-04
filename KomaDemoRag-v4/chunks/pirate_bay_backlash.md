@@ -1,0 +1,3 @@
+# Why nobody fought back this time
+
+The Pirate Bay crackdown also provoked a backlash. After the 2006 raid people protested in Stockholm, and Sweden's Pirate Party tripled its membership within a week; in 2009 it won about 7 percent of the Swedish vote and a seat in the European Parliament. In 2012, after street protests and petitions signed by millions, the European Parliament rejected ACTA, a trade agreement on enforcing copyright and other ownership claims. Intelligence ownership met no comparable movement. People objected, but most did not realise how much of their data and autonomy they were giving up, and convenience mattered more to them than ownership.

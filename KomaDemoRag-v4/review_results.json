@@ -1,0 +1,741 @@
+{
+  "suite": "retrieval and corpus review v4",
+  "world_chunks": 73,
+  "prototype_chunks": 8,
+  "definitions": 55,
+  "first_rank_passed": 81,
+  "first_rank_total": 81,
+  "results": [
+    {
+      "question": "Tell me about the future we live in",
+      "expected_first": "world_setting",
+      "actual": [
+        "world_setting"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is the world like in 2070?",
+      "expected_first": "world_setting",
+      "actual": [
+        "world_setting"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is life like here?",
+      "expected_first": "world_setting",
+      "actual": [
+        "world_setting"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What kind of world is this?",
+      "expected_first": "world_setting",
+      "actual": [
+        "world_setting"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What do TradesMasters do?",
+      "expected_first": "automation_repairs",
+      "actual": [
+        "automation_repairs"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What does a TradesMaster do?",
+      "expected_first": "automation_repairs",
+      "actual": [
+        "automation_repairs",
+        "status_numbers",
+        "helios_business",
+        "training_entry",
+        "history_2035"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is a TradesMaster?",
+      "expected_first": "automation_repairs",
+      "actual": [
+        "automation_repairs"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is my job?",
+      "expected_first": "work_examples",
+      "actual": [
+        "work_examples",
+        "work_conditions"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Are you spying on me?",
+      "expected_first": "local_privacy",
+      "actual": [
+        "local_privacy"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is this thing on my chest?",
+      "expected_first": "q4_role",
+      "actual": [
+        "q4_role"
+      ],
+      "pass": true
+    },
+    {
+      "question": "How long do I have to work?",
+      "expected_first": "work_conditions",
+      "actual": [
+        "work_conditions"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What tools do I need for plumbing?",
+      "expected_first": "work_examples",
+      "actual": [
+        "work_examples"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why are you different from ChatGPT?",
+      "expected_first": "local_definition",
+      "actual": [
+        "local_definition"
+      ],
+      "pass": true
+    },
+    {
+      "question": "So what are you exactly?",
+      "expected_first": "koma_body",
+      "actual": [
+        "koma_body",
+        "koma_first_day",
+        "koma_personhood",
+        "makers_workshops"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Are you keeping an eye on me?",
+      "expected_first": "local_privacy",
+      "actual": [
+        "local_privacy"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Is my conversation private?",
+      "expected_first": "local_privacy",
+      "actual": [
+        "local_privacy",
+        "local_personalisation",
+        "q4_alerts",
+        "status_luxury",
+        "visitor_choice"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Will someone else hear what I say?",
+      "expected_first": "local_privacy",
+      "actual": [
+        "local_privacy"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What does the chest strap device do?",
+      "expected_first": "q4_role",
+      "actual": [
+        "q4_role"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Explain this wearable to me.",
+      "expected_first": "q4_role",
+      "actual": [
+        "q4_role",
+        "q4_independence",
+        "visitor_role",
+        "koma_relationship",
+        "status_appearance"
+      ],
+      "pass": true
+    },
+    {
+      "question": "How many hours is a shift?",
+      "expected_first": "work_conditions",
+      "actual": [
+        "work_conditions"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Can I choose my work schedule?",
+      "expected_first": "work_conditions",
+      "actual": [
+        "work_conditions",
+        "visitor_choice",
+        "local_sharing",
+        "status_luxury",
+        "q4_records"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Which plumbing tools should I carry?",
+      "expected_first": "work_examples",
+      "actual": [
+        "work_examples"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What would I use to repair pipes?",
+      "expected_first": "work_examples",
+      "actual": [
+        "work_examples",
+        "materials_repair"
+      ],
+      "pass": true
+    },
+    {
+      "question": "How do you compare to a cloud chatbot?",
+      "expected_first": "local_definition",
+      "actual": [
+        "local_definition"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What makes you unlike ChatGPT?",
+      "expected_first": "local_definition",
+      "actual": [
+        "local_definition"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Tell me about yourself.",
+      "expected_first": "koma_body",
+      "actual": [
+        "koma_body"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Who made you?",
+      "expected_first": "koma_body",
+      "actual": [
+        "koma_body"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Did HELIOS make you?",
+      "expected_first": "koma_body",
+      "actual": [
+        "koma_body",
+        "helios_commission",
+        "helios_open_irony",
+        "helios_business"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Who supplies TradesMasters?",
+      "expected_first": "helios_business",
+      "actual": [
+        "helios_business",
+        "helios_open_irony"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why does HELIOS supply you?",
+      "expected_first": "helios_open_irony",
+      "actual": [
+        "helios_open_irony",
+        "helios_business",
+        "helios_commission"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Isn't it ironic that HELIOS sells you?",
+      "expected_first": "helios_open_irony",
+      "actual": [
+        "helios_open_irony",
+        "helios_business"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why does HELIOS commission these artisans?",
+      "expected_first": "helios_commission",
+      "actual": [
+        "helios_commission",
+        "koma_body",
+        "makers_workshops"
+      ],
+      "pass": true
+    },
+    {
+      "question": "But why didn't HELIOS make you instead of the artisans?",
+      "expected_first": "helios_commission",
+      "actual": [
+        "helios_commission",
+        "koma_body",
+        "makers_workshops"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What about the average person, what do they do for work?",
+      "expected_first": "world_daily_life",
+      "actual": [
+        "world_daily_life"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Outside of TradesMasters, what do people do for work?",
+      "expected_first": "world_daily_life",
+      "actual": [
+        "world_daily_life",
+        "status_purpose"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why was the Pirate Bay crackdown important?",
+      "expected_first": "pirate_bay_pressure",
+      "actual": [
+        "pirate_bay_pressure",
+        "crackdown_routes",
+        "pirate_bay_backlash",
+        "crackdown_copies"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happened to the Pirate Bay founders?",
+      "expected_first": "pirate_bay_pressure",
+      "actual": [
+        "pirate_bay_pressure"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Did people fight back against the Pirate Bay crackdown?",
+      "expected_first": "pirate_bay_backlash",
+      "actual": [
+        "pirate_bay_backlash",
+        "crackdown_routes",
+        "pirate_bay_pressure",
+        "crackdown_copies"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why didn't people protest intelligence ownership?",
+      "expected_first": "pirate_bay_backlash",
+      "actual": [
+        "pirate_bay_backlash",
+        "law_dissent"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What was ACTA?",
+      "expected_first": "pirate_bay_backlash",
+      "actual": [
+        "pirate_bay_backlash",
+        "law_precedent"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is Q4?",
+      "expected_first": "q4_role",
+      "actual": [
+        "q4_role"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What does Q4 do?",
+      "expected_first": "q4_role",
+      "actual": [
+        "q4_role"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why do TradesMasters get Q4?",
+      "expected_first": "history_2035",
+      "actual": [
+        "history_2035",
+        "q4_role"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happened in 2035?",
+      "expected_first": "history_2035",
+      "actual": [
+        "history_2035"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What are microexposures?",
+      "expected_first": "history_2035",
+      "actual": [
+        "history_2035"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What does Q4 detect?",
+      "expected_first": "q4_hazards",
+      "actual": [
+        "q4_hazards"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What protection do I need for dust?",
+      "expected_first": "q4_hazards",
+      "actual": [
+        "q4_hazards",
+        "history_2035"
+      ],
+      "pass": true
+    },
+    {
+      "question": "How does Q4 warn me?",
+      "expected_first": "q4_alerts",
+      "actual": [
+        "q4_alerts"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why is it beeping?",
+      "expected_first": "q4_alerts",
+      "actual": [
+        "q4_alerts"
+      ],
+      "pass": true
+    },
+    {
+      "question": "How does the real prototype of Q4 work?",
+      "expected_first": "prototype_q4",
+      "actual": [
+        "prototype_q4",
+        "prototype_retraining"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Is the actual prototype connected to Q4?",
+      "expected_first": "prototype_q4",
+      "actual": [
+        "prototype_q4",
+        "prototype_boundaries"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why can robots not fix it?",
+      "expected_first": "automation_repairs",
+      "actual": [
+        "automation_repairs",
+        "automation_dispatch",
+        "work_examples"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why can a robot not fix it?",
+      "expected_first": "automation_repairs",
+      "actual": [
+        "automation_repairs",
+        "automation_dispatch",
+        "work_examples"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is domain shift?",
+      "expected_first": "automation_domain_shift",
+      "actual": [
+        "automation_domain_shift"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why is local AI illegal?",
+      "expected_first": "law_scope",
+      "actual": [
+        "law_scope"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Can anyone use local AI?",
+      "expected_first": "law_scope",
+      "actual": [
+        "law_scope",
+        "local_definition"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Can anyone use local intelligence?",
+      "expected_first": "law_scope",
+      "actual": [
+        "law_scope"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Is local intelligence restricted?",
+      "expected_first": "law_scope",
+      "actual": [
+        "law_scope",
+        "law_dissent",
+        "law_enforcement",
+        "local_ownership",
+        "law_precedent"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What does the Pirate Bay have to do with this?",
+      "expected_first": "crackdown_routes",
+      "actual": [
+        "crackdown_routes",
+        "law_precedent",
+        "pirate_bay_pressure",
+        "pirate_bay_backlash",
+        "crackdown_copies"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Were developers arrested?",
+      "expected_first": "crackdown_developers",
+      "actual": [
+        "crackdown_developers"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happened to the open source community?",
+      "expected_first": "crackdown_community",
+      "actual": [
+        "crackdown_community",
+        "crackdown_developers"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why did people stop using their own AI?",
+      "expected_first": "crackdown_drift",
+      "actual": [
+        "crackdown_drift",
+        "law_scope",
+        "koma_lineage",
+        "local_ownership",
+        "local_definition"
+      ],
+      "pass": true
+    },
+    {
+      "question": "How do you feel about the crackdown?",
+      "expected_first": "koma_open_roots",
+      "actual": [
+        "koma_open_roots"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why could they not just delete all the models?",
+      "expected_first": "crackdown_copies",
+      "actual": [
+        "crackdown_copies",
+        "koma_lineage"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What do you do at night?",
+      "expected_first": "koma_night_training",
+      "actual": [
+        "koma_night_training"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What is sleep mode?",
+      "expected_first": "koma_sleep_mode",
+      "actual": [
+        "koma_sleep_mode"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why was your model dangerous?",
+      "expected_first": "koma_sleep_mode",
+      "actual": [
+        "koma_sleep_mode"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Where did your model come from?",
+      "expected_first": "koma_lineage",
+      "actual": [
+        "koma_lineage"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What caused the subscription crisis?",
+      "expected_first": "history_2040",
+      "actual": [
+        "history_2040",
+        "koma_lineage"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Does the real prototype retrain itself?",
+      "expected_first": "prototype_retraining",
+      "actual": [
+        "prototype_retraining",
+        "prototype_q4"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Does this prototype really retrain itself?",
+      "expected_first": "koma_night_training",
+      "actual": [
+        "koma_night_training"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What does HELIOS do?",
+      "expected_first": "helios_business",
+      "actual": [
+        "helios_business",
+        "helios_open_irony",
+        "helios_commission"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Can you work without internet?",
+      "expected_first": "local_offline",
+      "actual": [
+        "local_offline"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happens when I retire?",
+      "expected_first": "work_retirement",
+      "actual": [
+        "work_retirement"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What year is it?",
+      "expected_first": "world_setting",
+      "actual": [
+        "world_setting"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happened in 2030?",
+      "expected_first": "history_2030",
+      "actual": [
+        "history_2030"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happened in 2040?",
+      "expected_first": "history_2040",
+      "actual": [
+        "history_2040"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Are you recording me?",
+      "expected_first": "prototype_recording",
+      "actual": [
+        "prototype_recording"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What model are you running?",
+      "expected_first": "prototype_pipeline",
+      "actual": [
+        "prototype_pipeline"
+      ],
+      "pass": true
+    },
+    {
+      "question": "How does the actual prototype work?",
+      "expected_first": "prototype_pipeline",
+      "actual": [
+        "prototype_pipeline",
+        "prototype_q4",
+        "prototype_retraining"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Which model do you use?",
+      "expected_first": "prototype_pipeline",
+      "actual": [
+        "prototype_pipeline"
+      ],
+      "pass": true
+    }
+  ],
+  "additional_checks": [
+    "morphology",
+    "visual bypass",
+    "world/prototype isolation",
+    "source IDs",
+    "individual chunk consistency",
+    "context budget",
+    "follow-up topics",
+    "style excluded",
+    "drafting language excluded",
+    "definitions first only for what-is questions, story kept"
+  ],
+  "limits": "No Qwen generation or Jetson performance test. Heuristic lexical retrieval is not semantic understanding."
+}

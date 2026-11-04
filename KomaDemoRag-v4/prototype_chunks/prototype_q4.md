@@ -1,0 +1,3 @@
+# The real Q4 prototype
+
+The real Q4 prototype is a separate device from me, and I am not connected to it. It runs on an Arduino UNO Q with a Sensirion SEN66 air-quality sensor, a piezo buzzer, an LED matrix and a small camera just under the wearer's face, powered by a power bank on a fabric chest strap. It reads the air once per second. Above a threshold, an Edge Impulse image classifier checks for protection such as a mask or respirator, and readings and PPE use are logged to a file shown on a local web page. Its camera model had to be retrained on images from the worn position, a real case of domain shift.
