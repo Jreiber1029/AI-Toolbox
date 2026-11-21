@@ -116,7 +116,7 @@ PROTOTYPE_PATTERNS = re.compile(
 VISUAL_PATTERNS = re.compile(
     r"\b(this|that|these|those|it|holding|hold|hand|see|look\w*|show\w*|colou?r|tool|object|here)\b")
 STORY_PATTERNS = re.compile(r"\b(mara|nell|story|shop\w*|grandmother|first job|first commission)\b")
-SENTENCE_LIMIT = {"tool": 2, "question": 4, "safety": 3}
+SENTENCE_LIMIT = {"tool": 2, "question": 6, "safety": 3}
 NEW_VISITOR_PATTERNS = re.compile(r"\b(new visitor|new session)\b")
 SAFETY_PATTERNS = re.compile(
     r"\b(safe|safety|danger|dangerous|hurt|injur\w*|bleed\w*|burn\w*|fire|smoke|shock|"

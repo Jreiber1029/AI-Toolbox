@@ -1,7 +1,7 @@
 #!/home/jasonreiber/ultralytics-env/bin/python
 """KOMA: 'Koma' wake word -> Qwen VLM -> Piper TTS.
 
-The persona, 2070 lore and handover come from the KomaDemoRag-v4 pack (its
+The persona, 2070 lore and handover come from the KomaRAG pack (its
 koma_demo.py retriever); --old-lore uses brain.py's HELIOS 2100 lore instead.
 Spoken questions that refer to the scene ("what is this?") send the current frame
 to Qwen. A light TensorRT detector (yolo_trt.py, no PyTorch) checks the camera a few
@@ -29,8 +29,8 @@ from brain import SENTENCE_LIMIT, Brain, classify
 from koma import (CSI_PIPELINE, FALLBACK_VOICE, MAX_TOKENS, ROOT, STT_PYTHON, Speaker,
                   apply_color_lut, encode_frame, log, make_color_lut, pick_file, stream_vlm)
 
-DEFAULT_PACK = ROOT / "KomaDemoRag-v4"
-TOOL_MODEL = ROOT / "YOLO26toolmodel/toolppefinetune.engine"
+DEFAULT_PACK = ROOT / "KomaRAG"
+TOOL_MODEL = ROOT / "YOLO26toolmodel/toolppe-new.engine"
 # Classes that stand for a visitor, with the margins (side, up, down) their box is widened by,
 # as fractions of its width/height. A face box is small and a held tool sits well below it.
 ANCHORS = {"person": (0.25, 0.25, 0.25), "face": (1.5, 0.25, 3.0)}
@@ -41,6 +41,11 @@ DETECT_GAP = 0.5  # seconds a tool may drop out of detection without restarting 
 # Looser than the pack's own check, so a misheard "...do you see?" still skips lore.
 ROTATIONS = {0: None, 90: cv2.ROTATE_90_CLOCKWISE, 180: cv2.ROTATE_180, 270: cv2.ROTATE_90_COUNTERCLOCKWISE}
 LOOK_REQUEST = re.compile(r"\b(?:you see|can see|you looking at|in front of you|describe (?:what|the|this))\b", re.I)
+# A closing question that is a stock offer of help rather than part of the answer; ask() never speaks it.
+STOCK_ENDING = re.compile(
+    r"\b(?:what (?:kind|sort|type) of (?:work|task|job)|looking (?:to|for)|how can i help|anything else|"
+    r"what are you (?:working on|trying to build|building|planning)|need (?:assistance|help) with|"
+    r"(?:what|where) would you like)\b", re.I)
 
 
 class PackBrain:
@@ -70,7 +75,8 @@ class PackBrain:
         # build_prompt starts with the system prompt; send that as the system message so
         # llama.cpp reuses its cached prefix, and the rest as this turn.
         text = prompt[len(self.system_prompt):].strip()
-        text += f"\n\nReply in at most {SENTENCE_LIMIT.get(event, 2)} short spoken sentences."
+        if event != "question":  # a question's length follows the persona's answer rules; ask() still cuts at SENTENCE_LIMIT
+            text += f"\n\nReply in at most {SENTENCE_LIMIT.get(event, 2)} short spoken sentences."
         query = question or " ".join(labels)
         hits = [] if event in ("safety", "visual") else self.kb.retrieve(query, last_topic=self.last_topic)
         story = [h for h in hits if h.get("kind") != "definition"]  # a definition is never the follow-up topic
@@ -292,6 +298,9 @@ def main():
         started = time.monotonic()
         reply = []
         for sentence in stream_vlm(args.vlm_url, messages, MAX_TOKENS[event], cancel):
+            if sentence.rstrip().endswith("?") and STOCK_ENDING.search(sentence):
+                log(f"Dropped stock ending: {sentence}")
+                continue
             reply.append(sentence)
             speaker.say(sentence)
             if len(reply) >= SENTENCE_LIMIT[event]:

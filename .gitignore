@@ -26,3 +26,6 @@ Koma-storyrag.original-*/
 
 # safety-rag: Qdrant index is rebuilt with scripts/ingest.py
 safety-rag/storage/
+
+# Local TensorRT Edge-LLM build (~24 GB of weights/engines)
+YOLO-VLM_RT/

@@ -25,7 +25,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_PACK = ROOT / "KomaDemoRag-v4"
+DEFAULT_PACK = ROOT / "KomaRAG"
 
 FLAGS = {
     "format": re.compile(r"[*#`]|^\s*(?:[-•]|\d+\.)\s|[\U0001F300-\U0001FAFF☀-➿]", re.M),

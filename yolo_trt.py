@@ -31,6 +31,7 @@ class TrtDetector:
         meta = json.loads(data[4:4 + meta_len])
         self.names = {int(k): v for k, v in meta["names"].items()}
         self.end2end = meta.get("end2end", True)
+        self.obb = meta.get("task") == "obb"  # rotated boxes: one extra output row, the angle
         self.engine = trt.Runtime(trt.Logger(trt.Logger.ERROR)).deserialize_cuda_engine(data[4 + meta_len:])
         if self.engine is None:
             raise RuntimeError(f"Could not load {engine_path}; re-export it on this Jetson")
@@ -74,6 +75,22 @@ class TrtDetector:
             rows = self.output[0]
             boxes, scores, classes = rows[:, :4], rows[:, 4], rows[:, 5].astype(int)
             keep = np.flatnonzero(scores >= conf)
+        elif self.obb:
+            # Each column: centre x, centre y, width, height, class scores, then angle (radians).
+            candidates = self.output[0].T
+            classes = candidates[:, 4:-1].argmax(1)
+            scores = candidates[np.arange(len(candidates)), 4 + classes]
+            mask = scores >= conf
+            rot, scores, classes = candidates[mask][:, [0, 1, 2, 3, -1]], scores[mask], classes[mask]
+            rects = [((float(cx), float(cy)), (float(bw), float(bh)), float(np.degrees(a)))
+                     for cx, cy, bw, bh, a in rot]
+            # Same class-shift trick as below, so NMS only merges boxes of the same class.
+            shifted = [((cx + c * 4 * self.size, cy), wh, a) for ((cx, cy), wh, a), c in zip(rects, classes)]
+            keep = (np.array(cv2.dnn.NMSBoxesRotated(shifted, scores.tolist(), conf, iou), dtype=int).reshape(-1)
+                    if rects else np.empty(0, int))
+            # KOMA only needs an upright box: take the one that encloses each rotated box.
+            corners = np.array([cv2.boxPoints(r) for r in rects]).reshape(-1, 4, 2)
+            boxes = np.concatenate([corners.min(1), corners.max(1)], 1)
         else:
             # Each column is one candidate: centre x, centre y, width, height, then class scores.
             candidates = self.output[0].T

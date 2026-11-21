@@ -132,7 +132,7 @@ def stream_vlm(url, messages, max_tokens, cancel, on_delta=None, **extra):
     on_delta is called with each raw text piece (bench_models.py times tokens with it);
     extra adds request fields such as a fixed seed.
     """
-    payload = {"model": "qwen", "messages": messages, "temperature": 0.4,
+    payload = {"model": "qwen", "messages": messages, "temperature": 0.6,
                "max_tokens": max_tokens, "stream": True, "cache_prompt": True,
                "repeat_penalty": 1.1, **extra}
     request = urllib.request.Request(url, json.dumps(payload).encode(),

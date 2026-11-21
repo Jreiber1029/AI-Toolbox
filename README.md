@@ -53,7 +53,7 @@ flowchart LR
 
     YOLO[yolo_trt.py<br/>YOLO26 TensorRT]
     STT[wake_listener.py<br/>Vosk + Silero VAD + Whisper]
-    LORE[KomaDemoRag-v4<br/>BM25 lore RAG]
+    LORE[KomaRAG<br/>BM25 lore RAG]
     VLM[llama-server :8080<br/>Gemma 4 E2B / Qwen3.5 2B]
     TTS[tts_worker.py<br/>Piper voice]
     SPK[Jabra speaker]
@@ -78,7 +78,7 @@ flowchart LR
 | Object detection | `yolo_trt.py`, `YOLO26toolmodel/` | `ultralytics-env` | Runs YOLO26 directly on TensorRT and returns `(name, confidence, box)`. |
 | Speech-to-text | `wake_listener.py` | `stt-env` | Vosk spots the wake word. Silero VAD finds the end of the sentence, and faster-whisper transcribes it. |
 | Text-to-speech | `tts_worker.py`, `voices/` | `tts-env` | Keeps a custom Piper voice loaded and plays sentences on the Jabra. |
-| KOMA lore RAG | `KomaDemoRag-v4/` | stdlib Python | Holds about 70 hand-written story chunks, with a BM25 retriever and a validator (`validate_pack.py`). |
+| KOMA lore RAG | `KomaRAG/` | stdlib Python | Holds about 70 hand-written story chunks, with a BM25 retriever and a validator (`validate_pack.py`). |
 | UK safety RAG | `safety-rag/` | `safety-rag-env` | Uses LlamaIndex with a local Qdrant store and FastEmbed `BAAI/bge-small-en-v1.5` over the GB safety knowledge base. Served on `127.0.0.1:8090/retrieve`. |
 | Safety camera | `safety-rag/scripts/smolvlm_camera.py` | — | Runs the two-pass hazard triage → RAG → grounded recommendation loop on camera frames. |
 | Benchmarking | `bench_models.py`, `compare_models.py`, `tests/` | `ultralytics-env` | Runs the same questions and images through each VLM and produces side-by-side answers for blind rating. |
@@ -194,7 +194,7 @@ run_model.sh           start a VLM server, then KOMA
 serve_model.sh         llama-server settings for every supported VLM
 tool_prompts/          scripted line per detected tool
 welcome.txt            what KOMA says when the ID card is accepted
-KomaDemoRag-v4/        KOMA lore pack: chunks, retriever, system prompt, validator
+KomaRAG/        KOMA lore pack: chunks, retriever, system prompt, validator
 safety-rag/            UK workplace safety RAG + the two-pass safety camera
 bench_models.py        VLM benchmark harness (compare_models.py for review)
 tests/                 benchmark questions and images

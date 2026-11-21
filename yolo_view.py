@@ -35,7 +35,7 @@ def ram_used_mb():
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--model", type=Path, default=ROOT / "YOLO26toolmodel/toolppefinetune.engine")
+    p.add_argument("--model", type=Path, default=ROOT / "YOLO26toolmodel/toolppe-new.engine")
     p.add_argument("--camera", default="csi:0", help="'csi:N' for nvargus sensor N, or a V4L2 index/path")
     p.add_argument("--rotate", type=int, choices=sorted(ROTATIONS), default=0)
     p.add_argument("--port", type=int, default=8090)
