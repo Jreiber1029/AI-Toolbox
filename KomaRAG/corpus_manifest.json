@@ -1,10 +1,10 @@
 {
   "version": "4",
-  "world_chunks": 84,
+  "world_chunks": 90,
   "prototype_chunks": 8,
   "definitions": 56,
   "files": {
-    "koma_rag.jsonl": "2ea95c7950a7d58a5dd1bd9176a91f6322508ce4de76654dd86e9367d9fc1435",
+    "koma_rag.jsonl": "0587fd655e71609f8a773ae632d0aa2a8e8a5d688ac9745a7107ff54d8a08031",
     "prototype_rag.jsonl": "84a9be67df4c80698b2f6efd73e8501f869ac13e790f4e31c10cf51581982ed2",
     "glossary_rag.jsonl": "72ac8eae6dd8cb7d7be555e14aed2b39ffcd8fd6eb8e9eb3f93860d0d3cea82b",
     "koma_demo.py": "5f4d3f47d0c78cd95c93cb73bbb762e1622058e79a3f47842500d5e2057cc2ed"

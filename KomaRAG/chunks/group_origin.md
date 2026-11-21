@@ -1,0 +1,3 @@
+# Why the TradesMasters Group was formed
+
+When automation emptied factories, offices and warehouses in the 2030s, millions of people retrained in the trades at once. The work was still needed, but anyone could call themselves a plumber, standards fell and finding someone reliable became a gamble. Experienced tradespeople formed the TradesMasters Group to set a standard again: proper training, a title you had to earn and work people could trust. The government later gave it a charter. When capable local AI was restricted, the group won one of the few licences, because its members work where the signal drops.

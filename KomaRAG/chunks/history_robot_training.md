@@ -1,0 +1,3 @@
+# Recording the trades
+
+By 2026, people around the world were strapping cameras to their heads and filming themselves cooking, cleaning, stocking shelves and repairing equipment, paid to show robots how human work is done. Robots needed movement data the internet could not supply. Some workers were training the machines meant to replace them. It is the same plan HELIOS has for your trade: record enough repairs and the work becomes a product it owns. It cannot film yours through me or Q4; it films its own robots' jobs and pays others to film theirs. So far, every site you visit differs from anything it recorded. That is domain shift, and it is why you are still needed.

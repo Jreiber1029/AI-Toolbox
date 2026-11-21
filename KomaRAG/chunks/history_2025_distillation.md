@@ -1,0 +1,3 @@
+# The 2025 distillation dispute
+
+In January 2025, a Chinese company called DeepSeek released an open model that rivalled leading American systems, reportedly at a fraction of the cost. OpenAI said it had evidence that DeepSeek had used distillation, training on a larger model's answers. The 2026 Open Weights Letter defended distillation as fair practice; the 2030 ruling took the other side. So a dispute about one company's model grew into the question of whether anyone may learn from anyone else's intelligence. I learn by distillation myself, though only from a larger model on my own equipment.

@@ -1,10 +1,10 @@
 {
   "suite": "retrieval and corpus review v4",
-  "world_chunks": 84,
+  "world_chunks": 90,
   "prototype_chunks": 8,
   "definitions": 56,
-  "first_rank_passed": 113,
-  "first_rank_total": 113,
+  "first_rank_passed": 123,
+  "first_rank_total": 123,
   "results": [
     {
       "question": "Tell me about the future we live in",
@@ -266,9 +266,9 @@
       "expected_first": "group_charter",
       "actual": [
         "group_charter",
+        "group_origin",
         "status_numbers",
-        "training_entry",
-        "helios_replacement"
+        "training_entry"
       ],
       "pass": true
     },
@@ -278,8 +278,8 @@
       "actual": [
         "group_open_model",
         "crackdown_community",
-        "koma_lineage",
-        "history_2026"
+        "history_2026",
+        "koma_lineage"
       ],
       "pass": true
     },
@@ -504,9 +504,9 @@
       "expected_first": "automation_repairs",
       "actual": [
         "automation_repairs",
+        "history_robot_training",
         "helios_replacement",
-        "automation_dispatch",
-        "work_examples"
+        "automation_dispatch"
       ],
       "pass": true
     },
@@ -515,9 +515,9 @@
       "expected_first": "automation_repairs",
       "actual": [
         "automation_repairs",
+        "history_robot_training",
         "helios_replacement",
-        "automation_dispatch",
-        "work_examples"
+        "automation_dispatch"
       ],
       "pass": true
     },
@@ -603,8 +603,8 @@
       "actual": [
         "crackdown_drift",
         "law_scope",
-        "law_other_licences",
-        "history_letter_aftermath"
+        "history_humane_pin",
+        "law_other_licences"
       ],
       "pass": true
     },
@@ -657,6 +657,7 @@
       "actual": [
         "koma_lineage",
         "group_charter",
+        "group_origin",
         "koma_sleep_mode"
       ],
       "pass": true
@@ -702,7 +703,8 @@
       "question": "Can you work without internet?",
       "expected_first": "local_offline",
       "actual": [
-        "local_offline"
+        "local_offline",
+        "history_robot_training"
       ],
       "pass": true
     },
@@ -772,6 +774,92 @@
       "expected_first": "prototype_pipeline",
       "actual": [
         "prototype_pipeline"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why was the TradesMasters Group formed?",
+      "expected_first": "group_origin",
+      "actual": [
+        "group_origin",
+        "group_charter"
+      ],
+      "pass": true
+    },
+    {
+      "question": "When was the group founded?",
+      "expected_first": "group_origin",
+      "actual": [
+        "group_origin"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What was the LLaMA leak?",
+      "expected_first": "history_2023_leak",
+      "actual": [
+        "history_2023_leak"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What was the DeepSeek dispute?",
+      "expected_first": "history_2025_distillation",
+      "actual": [
+        "history_2025_distillation",
+        "law_precedent"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What was AI trained on?",
+      "expected_first": "history_data_rush",
+      "actual": [
+        "history_data_rush",
+        "training_curriculum",
+        "training_entry"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Are workers being filmed to train robots?",
+      "expected_first": "history_robot_training",
+      "actual": [
+        "history_robot_training"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Is HELIOS filming my trade to train its robots?",
+      "expected_first": "history_robot_training",
+      "actual": [
+        "history_robot_training",
+        "helios_replacement"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happened to the Humane AI pin?",
+      "expected_first": "history_humane_pin",
+      "actual": [
+        "history_humane_pin"
+      ],
+      "pass": true
+    },
+    {
+      "question": "What happens if the servers are switched off?",
+      "expected_first": "history_humane_pin",
+      "actual": [
+        "history_humane_pin"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Tell me the history of AI.",
+      "expected_first": "history_relationship",
+      "actual": [
+        "history_relationship",
+        "q4_records"
       ],
       "pass": true
     },
@@ -1017,7 +1105,8 @@
       "actual": [
         "law_other_licences",
         "group_open_model",
-        "group_charter"
+        "group_charter",
+        "law_scope"
       ],
       "pass": true
     },

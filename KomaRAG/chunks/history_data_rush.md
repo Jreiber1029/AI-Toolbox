@@ -1,0 +1,3 @@
+# Built from everyone's data
+
+The intelligence people now rent was built from everyone's work. Common Crawl, founded in 2007, archived billions of public web pages that later became a core source for training language models. ImageNet, released in 2009, held millions of images labelled by low-paid crowd workers. In 2022 ChatGPT launched, trained on vast amounts of public text, and reached an estimated hundred million users in about two months. Writers, artists and news organisations sued over their work being used, and many disputes ended in licensing deals and payments. The work came from the public; ownership of what it built did not.
