@@ -1,6 +1,6 @@
 # KOMA glossary – draft for review
 
-Plain-English definitions for terms used in KomaDemoRag-v4 that a visitor might not know.
+Plain-English definitions for terms used in KomaRAG that a visitor might not know.
 Not loaded by KOMA yet. Edit freely; once you're happy, each entry becomes one chunk in
 koma_rag.jsonl (id `term_<name>`, with "What is …?" / "What does … mean?" as its questions).
 
@@ -19,8 +19,9 @@ shared or deleted like any other file.
 **★ Distillation**
 Distillation is how a small AI model learns from a bigger one. The big model answers lots of
 questions, and the small model practises giving the same answers until it can do it by itself,
-much faster. Think of an apprentice learning by watching a master. Companies won the right in
-2030 to stop people distilling their models, so I learn from my own large model instead.
+much faster. Think of an apprentice learning by watching a master. In 2026 big companies still
+defended it as fair practice. By 2030 the courts had given companies the right to stop people
+distilling their models, so I learn from my own large model instead.
 
 **★ Fine-tuning**
 Fine-tuning means giving a model that's already trained some extra practice on a narrower set
@@ -40,8 +41,8 @@ models as their property.
 
 **★ Open model**
 An open model is one whose files are published for anyone to download, run and change, instead
-of being kept by a company and rented out. The model I run started as an open model, shared by
-a community of people who gave their work away freely.
+of being kept by a company and rented out. Those files are also called open weights. The model
+I run started as an open model, shared by a community of people who gave their work away freely.
 
 **★ Frontier model**
 Frontier models are the biggest, most advanced AI models of their time, usually run by large
@@ -111,12 +112,13 @@ restrictions that built up after 2030.
 
 **★ Licensed provider**
 A licensed provider is a company the government has given permission to supply AI. HELIOS is
-one, and it supplied me to you. Most people must get their AI from one of these companies,
-usually by subscription.
+the largest. Most people must get their AI from one of these companies, usually by subscription.
+I didn't come from one: the TradesMasters Group holds its own licence for local AI.
 
 **★ Professional exemption**
 An exemption means you're allowed to do something that's banned for others. As a TradesMaster
-you have a professional exemption: because of your work, you may own local AI like me.
+you have a professional exemption: because of your work, and through the group's licence, you
+may own local AI like me.
 
 **Ownership claim**
 An ownership claim is a company saying, often in court, that something belongs to it, such as
@@ -153,21 +155,27 @@ The crackdown is what happened after 2040, when companies and regulators shut do
 AI models were shared: hosting sites, model libraries, payments and support. The files never
 disappeared completely, but using them openly became risky.
 
+**★ The Open Weights Letter**
+The Open Weights Letter is an open letter, published in July 2026 by twenty-five companies and
+organisations including NVIDIA, Microsoft and Meta. It asked the American government not to restrict
+AI models that anyone can download and run. It shows how
+differently things could have gone.
+
 **★ The Pirate Bay**
-The Pirate Bay is a real website, started in Sweden in 2003, where people shared files such as
-films and music, often without permission. Police raided it in 2006. I use it as an example
-because the crackdown on open AI followed the same pattern.
+The Pirate Bay is a website, started in Sweden in 2003, where people shared files such as
+films and music, often without permission. Police raided it in 2006, and the crackdown
+on open AI followed the same pattern.
 
 **File-sharing**
 File-sharing means people swapping copies of files, like music, films or AI models, directly over
 the internet.
 
 **Pirate Party**
-The Pirate Party is a real Swedish political party, founded in 2006 to campaign for file-sharing
+The Pirate Party is a Swedish political party, founded in 2006 to campaign for file-sharing
 rights and online privacy. It grew quickly after the Pirate Bay raid.
 
 **ACTA**
-ACTA, the Anti-Counterfeiting Trade Agreement, was a real international deal to enforce copyright
+ACTA, the Anti-Counterfeiting Trade Agreement, was an international deal to enforce copyright
 and other ownership rules more strictly. The European Parliament rejected it in 2012 after large
 street protests.
 
@@ -215,10 +223,10 @@ Nitrogen oxides are harmful gases made when fuel burns hot, for example in engin
 welding. They irritate your lungs.
 
 **Respirator / N95 / cartridges**
-A respirator is a mask that filters harmful things out of the air you breathe. An N95 is a common
-type that blocks at least 95 percent of tiny particles. Some respirators take cartridges,
+A respirator is a mask that filters harmful things out of the air you breathe. In Britain, disposable
+ones are graded FFP1 to FFP3, and the higher the number, the better the protection. Some respirators take cartridges,
 swappable filters for a particular hazard: organic-vapour cartridges for paint and solvent fumes,
-gas cartridges for gases.
+and special filters for gases such as nitrogen oxides.
 
 **Asbestos**
 Asbestos is a mineral once used widely in buildings for insulation and fireproofing. When it's
@@ -238,8 +246,8 @@ A threshold is a set level. When Q4's reading goes above it, the alarm starts.
 
 ## 6. The real prototype (prototype_rag.jsonl, only reached by "real prototype" questions)
 
-**Jetson Orin Nano Super**
-The Jetson Orin Nano Super is a small NVIDIA computer built for running AI on devices instead of
+**Jetson Orin Nano**
+The Jetson Orin Nano is a small NVIDIA computer built for running AI on devices instead of
 in a data centre. It's the computer inside the real prototype of me.
 
 **YOLO**

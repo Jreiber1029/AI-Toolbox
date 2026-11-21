@@ -1,0 +1,3 @@
+# The 2040 subscription crisis
+
+Around 2040, an open model appeared that got better every night on ordinary hardware. By day, a small, quick model answered its owner. At night, while the owner slept, a much larger, slower model on the same device went back over the day's questions and worked out better answers. By morning the small model had been fine-tuned on them. People suddenly had assistants that improved without a subscription, and subscription revenue fell. The companies lobbied for restrictions, which tells you who was frightened. My model is a later version of it, and how a copy survived is a story of its own.

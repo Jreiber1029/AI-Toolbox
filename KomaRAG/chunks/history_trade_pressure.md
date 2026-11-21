@@ -1,0 +1,3 @@
+# How the rules reached Britain and Europe
+
+The fight over open AI began in America, but it did not stay there. After the 2030 ruling, American officials and companies pressed other countries to adopt the same ownership rules, with the threat of harder trade behind the pressure. Europe and Britain gave way, one agreement at a time. It was the same pattern as the Pirate Bay crackdown, when, after American pressure on Sweden, police raided a file-sharing site in 2006. That is how a dispute between American companies ended up deciding what you and I are allowed to own here. Ten years later, a small open model gave the companies a fresh reason to tighten their grip.

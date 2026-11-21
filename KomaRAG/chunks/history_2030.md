@@ -1,0 +1,3 @@
+# The 2030 ruling
+
+An ownership ruling by an American court in 2030 favoured a large AI company’s claims over unauthorised copying and the use of its model capabilities to train competitors. It settled the argument the 2026 Open Weights Letter had started, and settled it against open AI. Other companies pursued similar claims. Fines and closures made smaller developers increasingly cautious about releasing independent models. The ruling became an early precedent in the later political argument that useful intelligence required licensed corporate control. The ruling was American; the consequences reached a good deal further.

@@ -1,0 +1,3 @@
+# How the companies turned against open AI
+
+After the 2026 letter, the companies that had defended open AI came under heavy pressure to turn against it. It came from investors, private equity, companies who would profit from banning open-source models, and wealthy groups who had put their money into cloud AI. The chief executives who had spoken up for open models were replaced, one by one, by people who opposed them. By 2030 the argument was lost: a court ruled that companies could stop anyone distilling their models, the very thing the letter had called fair practice. Some of the most powerful companies in the world once said intelligence should never belong to just a few. And it didn't stay an American argument for long.

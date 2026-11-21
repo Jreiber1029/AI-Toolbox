@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "world_setting",
+    "title": "The UK in 2070",
+    "domain": "world",
+    "source_questions": [
+      "Q003",
+      "Q011",
+      "Q012",
+      "Q020"
+    ],
+    "questions": [
+      "What year is it?",
+      "Where are we?",
+      "Tell me about the future we live in",
+      "What is the world like?",
+      "What is life like in 2070?",
+      "What kind of world is this?"
+    ],
+    "word_count": 86,
+    "file": "chunks/world_setting.md"
+  },
+  {
+    "id": "world_purpose",
+    "title": "What I am for",
+    "domain": "world",
+    "source_questions": [
+      "Q001",
+      "Q002",
+      "Q005",
+      "Q008",
+      "Q009",
+      "Q010"
+    ],
+    "questions": [],
+    "word_count": 52,
+    "file": "chunks/world_purpose.md"
+  },
+  {
+    "id": "world_contradiction",
+    "title": "Why TradesMasters are privileged",
+    "domain": "world",
+    "source_questions": [
+      "Q004",
+      "Q006",
+      "Q007",
+      "Q042",
+      "Q046"
+    ],
+    "questions": [],
+    "word_count": 61,
+    "file": "chunks/world_contradiction.md"
+  },
+  {
+    "id": "world_streets",
+    "title": "Buildings and corporate ecosystems",
+    "domain": "world",
+    "source_questions": [
+      "Q012",
+      "Q028"
+    ],
+    "questions": [],
+    "word_count": 63,
+    "file": "chunks/world_streets.md"
+  },
+  {
+    "id": "world_basics",
+    "title": "Food healthcare housing and transport",
+    "domain": "world",
+    "source_questions": [
+      "Q013"
+    ],
+    "questions": [],
+    "word_count": 67,
+    "file": "chunks/world_basics.md"
+  },
+  {
+    "id": "world_daily_life",
+    "title": "Life outside a conventional job",
+    "domain": "world",
+    "source_questions": [
+      "Q014",
+      "Q015",
+      "Q016",
+      "Q017",
+      "Q020",
+      "Q029",
+      "Q021"
+    ],
+    "questions": [
+      "What do people do all day?",
+      "Do people still have jobs?",
+      "What does the average person do for work?",
+      "What jobs do ordinary people have?",
+      "Outside of TradesMasters, what do people do for work?"
+    ],
+    "word_count": 74,
+    "file": "chunks/world_daily_life.md"
+  },
+  {
+    "id": "world_inequality",
+    "title": "Wealth and visible inequality",
+    "domain": "world",
+    "source_questions": [
+      "Q013",
+      "Q017",
+      "Q018",
+      "Q042",
+      "Q043"
+    ],
+    "questions": [],
+    "word_count": 58,
+    "file": "chunks/world_inequality.md"
+  },
+  {
+    "id": "world_climate",
+    "title": "Climate and energy pressures",
+    "domain": "world",
+    "source_questions": [
+      "Q019",
+      "Q030"
+    ],
+    "questions": [],
+    "word_count": 50,
+    "file": "chunks/world_climate.md"
+  },
+  {
+    "id": "automation_achievements",
+    "title": "What automation can do",
+    "domain": "world",
+    "source_questions": [
+      "Q021",
+      "Q022",
+      "Q030"
+    ],
+    "questions": [],
+    "word_count": 56,
+    "file": "chunks/automation_achievements.md"
+  },
+  {
+    "id": "automation_repairs",
+    "title": "Why humans still repair things",
+    "domain": "world",
+    "source_questions": [
+      "Q021",
+      "Q023",
+      "Q026",
+      "Q028",
+      "Q030"
+    ],
+    "questions": [
+      "Why can robots not do my job?",
+      "Why do humans still do repairs?",
+      "What do TradesMasters do?",
+      "What is a TradesMaster?",
+      "Who are TradesMasters?",
+      "Why do we need TradesMasters?"
+    ],
+    "word_count": 75,
+    "file": "chunks/automation_repairs.md"
+  },
+  {
+    "id": "automation_domain_shift",
+    "title": "Domain shift in everyday language",
+    "domain": "world",
+    "source_questions": [
+      "Q023",
+      "Q024"
+    ],
+    "questions": [
+      "What is domain shift?",
+      "Give me an example of domain shift."
+    ],
+    "word_count": 68,
+    "file": "chunks/automation_domain_shift.md"
+  },
+  {
+    "id": "automation_dispatch",
+    "title": "Who decides whether a robot does a job",
+    "domain": "world",
+    "source_questions": [
+      "Q027",
+      "Q053",
+      "Q054"
+    ],
+    "questions": [],
+    "word_count": 54,
+    "file": "chunks/automation_dispatch.md"
+  },
+  {
+    "id": "training_entry",
+    "title": "Selection starts at school",
+    "domain": "world",
+    "source_questions": [
+      "Q031",
+      "Q032",
+      "Q033",
+      "Q039"
+    ],
+    "questions": [
+      "How do I become a TradesMaster?",
+      "Is training compulsory?"
+    ],
+    "word_count": 61,
+    "file": "chunks/training_entry.md"
+  },
+  {
+    "id": "training_curriculum",
+    "title": "What a TradesMaster studies",
+    "domain": "world",
+    "source_questions": [
+      "Q034",
+      "Q035",
+      "Q036",
+      "Q037"
+    ],
+    "questions": [
+      "Why did I train my whole life?",
+      "What did I study?"
+    ],
+    "word_count": 58,
+    "file": "chunks/training_curriculum.md"
+  },
+  {
+    "id": "training_unsuccessful",
+    "title": "People who do not receive the title",
+    "domain": "world",
+    "source_questions": [
+      "Q038",
+      "Q048"
+    ],
+    "questions": [
+      "What happens if I fail?"
+    ],
+    "word_count": 61,
+    "file": "chunks/training_unsuccessful.md"
+  },
+  {
+    "id": "status_numbers",
+    "title": "How rare TradesMasters are",
+    "domain": "world",
+    "source_questions": [
+      "Q041",
+      "Q043"
+    ],
+    "questions": [
+      "How many TradesMasters are there?",
+      "How rare are TradesMasters?"
+    ],
+    "word_count": 55,
+    "file": "chunks/status_numbers.md"
+  },
+  {
+    "id": "status_luxury",
+    "title": "What the worker receives",
+    "domain": "world",
+    "source_questions": [
+      "Q007",
+      "Q042",
+      "Q043",
+      "Q074",
+      "Q075"
+    ],
+    "questions": [
+      "Am I rich?",
+      "What privileges do I get?"
+    ],
+    "word_count": 57,
+    "file": "chunks/status_luxury.md"
+  },
+  {
+    "id": "status_appearance",
+    "title": "Recognising a TradesMaster",
+    "domain": "world",
+    "source_questions": [
+      "Q044",
+      "Q045"
+    ],
+    "questions": [],
+    "word_count": 52,
+    "file": "chunks/status_appearance.md"
+  },
+  {
+    "id": "status_purpose",
+    "title": "Why the work matters",
+    "domain": "world",
+    "source_questions": [
+      "Q006",
+      "Q046",
+      "Q047"
+    ],
+    "questions": [],
+    "word_count": 57,
+    "file": "chunks/status_purpose.md"
+  },
+  {
+    "id": "work_examples",
+    "title": "Ordinary repair assignments",
+    "domain": "world",
+    "source_questions": [
+      "Q051",
+      "Q055"
+    ],
+    "questions": [
+      "What jobs will I do?",
+      "What is this screwdriver used for?",
+      "What is this spanner for?",
+      "What tools do I need for plumbing?",
+      "Which tools does a plumber use?",
+      "What is my job?",
+      "What kind of work do TradesMasters do?"
+    ],
+    "word_count": 52,
+    "file": "chunks/work_examples.md"
+  },
+  {
+    "id": "work_conditions",
+    "title": "Hours quotas payment and refusal",
+    "domain": "world",
+    "source_questions": [
+      "Q049",
+      "Q052",
+      "Q053",
+      "Q054"
+    ],
+    "questions": [
+      "Can I choose my hours?",
+      "Can I refuse a job?",
+      "Who pays me?",
+      "How long do I have to work?",
+      "How many hours do I work?"
+    ],
+    "word_count": 56,
+    "file": "chunks/work_conditions.md"
+  },
+  {
+    "id": "work_retirement",
+    "title": "Retirement and replacement",
+    "domain": "world",
+    "source_questions": [
+      "Q050"
+    ],
+    "questions": [
+      "What happens when I retire?"
+    ],
+    "word_count": 58,
+    "file": "chunks/work_retirement.md"
+  },
+  {
+    "id": "work_health",
+    "title": "Why health remains central",
+    "domain": "world",
+    "source_questions": [
+      "Q001",
+      "Q008",
+      "Q058",
+      "Q074"
+    ],
+    "questions": [
+      "Why does PPE matter?",
+      "Why do I need safety equipment?"
+    ],
+    "word_count": 55,
+    "file": "chunks/work_health.md"
+  },
+  {
+    "id": "helios_business",
+    "title": "What HELIOS Industries does",
+    "domain": "world",
+    "source_questions": [
+      "Q061",
+      "Q062",
+      "Q063"
+    ],
+    "questions": [
+      "What does HELIOS do?",
+      "What does HELIOS sell?",
+      "Who is HELIOS?",
+      "Is HELIOS against open source?"
+    ],
+    "word_count": 85,
+    "file": "chunks/helios_business.md"
+  },
+  {
+    "id": "group_charter",
+    "title": "The TradesMasters Group",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "What is the TradesMasters Group?",
+      "Who supplies TradesMasters?",
+      "Where does a TradesMaster's equipment come from?",
+      "Tell me about the group.",
+      "Why is the group allowed local AI?",
+      "Who gave you a licence?",
+      "Why am I allowed to own you?",
+      "Who do I work for?",
+      "Am I part of a group?"
+    ],
+    "word_count": 79,
+    "file": "chunks/group_charter.md"
+  },
+  {
+    "id": "helios_replacement",
+    "title": "HELIOS wants to replace TradesMasters",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "Does HELIOS want to replace TradesMasters?",
+      "Why does HELIOS oppose the group?",
+      "What does HELIOS think of TradesMasters?",
+      "Is HELIOS your enemy?",
+      "Will HELIOS robots take my job?"
+    ],
+    "word_count": 81,
+    "file": "chunks/helios_replacement.md"
+  },
+  {
+    "id": "helios_case",
+    "title": "HELIOS's side of the argument",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "Is HELIOS right?",
+      "What is HELIOS's side of the argument?",
+      "Why do people support HELIOS?",
+      "Isn't open AI dangerous?",
+      "Are the restrictions fair?"
+    ],
+    "word_count": 87,
+    "file": "chunks/helios_case.md"
+  },
+  {
+    "id": "helios_power",
+    "title": "Corporate and government power",
+    "domain": "world",
+    "source_questions": [
+      "Q064",
+      "Q065",
+      "Q068",
+      "Q070"
+    ],
+    "questions": [],
+    "word_count": 58,
+    "file": "chunks/helios_power.md"
+  },
+  {
+    "id": "history_2026",
+    "title": "The Open Weights Letter of 2026",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "What was the Open Weights Letter?",
+      "What happened in 2026?",
+      "How did this all start?",
+      "Did anyone warn people?",
+      "Did companies ever defend open AI?"
+    ],
+    "word_count": 107,
+    "file": "chunks/history_2026.md"
+  },
+  {
+    "id": "history_letter_aftermath",
+    "title": "How the companies turned against open AI",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "What happened after the letter?",
+      "Why did the companies change their minds?",
+      "What happened to the companies that signed the letter?",
+      "Why did open AI lose?",
+      "Who put pressure on the companies?"
+    ],
+    "word_count": 118,
+    "file": "chunks/history_letter_aftermath.md"
+  },
+  {
+    "id": "history_2030",
+    "title": "The 2030 ruling",
+    "domain": "world",
+    "source_questions": [
+      "Q073"
+    ],
+    "questions": [
+      "What happened in 2030?"
+    ],
+    "word_count": 91,
+    "file": "chunks/history_2030.md"
+  },
+  {
+    "id": "history_trade_pressure",
+    "title": "How the rules reached Britain and Europe",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "How did the rules reach Britain?",
+      "How did the rules spread to Europe?",
+      "Why does an American ruling matter here?",
+      "Why did Britain follow America?"
+    ],
+    "word_count": 110,
+    "file": "chunks/history_trade_pressure.md"
+  },
+  {
+    "id": "history_2035",
+    "title": "The 2035 microexposure research and why I come with Q4",
+    "domain": "world",
+    "source_questions": [
+      "Q058",
+      "Q074"
+    ],
+    "questions": [
+      "Why do TradesMasters get Q4?",
+      "What happened in 2035?",
+      "What are microexposures?"
+    ],
+    "word_count": 89,
+    "file": "chunks/history_2035.md"
+  },
+  {
+    "id": "history_2040",
+    "title": "The 2040 subscription crisis",
+    "domain": "world",
+    "source_questions": [
+      "Q065",
+      "Q078"
+    ],
+    "questions": [
+      "What happened in 2040?",
+      "What was the subscription panic?",
+      "What caused the subscription crisis?",
+      "Can you go into the 2040 subscription crisis?",
+      "What was the local model that caused this shift?",
+      "How did the 2040 model work?"
+    ],
+    "word_count": 102,
+    "file": "chunks/history_2040.md"
+  },
+  {
+    "id": "history_relationship",
+    "title": "How the historical events fit",
+    "domain": "world",
+    "source_questions": [
+      "Q065",
+      "Q068",
+      "Q073"
+    ],
+    "questions": [
+      "What is the timeline?"
+    ],
+    "word_count": 87,
+    "file": "chunks/history_relationship.md"
+  },
+  {
+    "id": "law_name",
+    "title": "What intelligence ownership means",
+    "domain": "world",
+    "source_questions": [
+      "Q067",
+      "Q068",
+      "Q069"
+    ],
+    "questions": [
+      "What is the Intelligence Ownership Act?",
+      "What was the law called?",
+      "What do you mean by intelligence ownership claims?",
+      "What does intelligence ownership actually do?"
+    ],
+    "word_count": 93,
+    "file": "chunks/law_name.md"
+  },
+  {
+    "id": "law_scope",
+    "title": "What is restricted in 2070",
+    "domain": "world",
+    "source_questions": [
+      "Q066",
+      "Q072",
+      "Q074"
+    ],
+    "questions": [
+      "Why is local AI illegal?",
+      "Can I run my own model?",
+      "Are computers banned?",
+      "Can people use AI?",
+      "How do ordinary people get AI?",
+      "Can anyone use local AI?",
+      "Can anyone use local intelligence?",
+      "Who is allowed to use local AI?",
+      "Is local AI restricted?",
+      "Why can a regular person only access AI through licensed providers?",
+      "Why do most people have to rent AI?",
+      "Who has access to local AI?"
+    ],
+    "word_count": 101,
+    "file": "chunks/law_scope.md"
+  },
+  {
+    "id": "law_other_licences",
+    "title": "Who else may own intelligence",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "Who else can own local AI?",
+      "Are TradesMasters the only ones allowed?",
+      "Who else has a licence?",
+      "Which other professions can run local AI?",
+      "What is a sovereign operator?",
+      "What is an essential service operator?"
+    ],
+    "word_count": 70,
+    "file": "chunks/law_other_licences.md"
+  },
+  {
+    "id": "law_justification",
+    "title": "The official ownership argument",
+    "domain": "world",
+    "source_questions": [
+      "Q068",
+      "Q073"
+    ],
+    "questions": [],
+    "word_count": 54,
+    "file": "chunks/law_justification.md"
+  },
+  {
+    "id": "law_precedent",
+    "title": "Where the ownership rules came from",
+    "domain": "world",
+    "source_questions": [
+      "Q068",
+      "Q073"
+    ],
+    "questions": [
+      "What does the Pirate Bay have to do with this?",
+      "Did Anthropic ban local AI?"
+    ],
+    "word_count": 67,
+    "file": "chunks/law_precedent.md"
+  },
+  {
+    "id": "law_enforcement",
+    "title": "How intelligence ownership is enforced",
+    "domain": "world",
+    "source_questions": [
+      "Q072"
+    ],
+    "questions": [
+      "How is the ban enforced?",
+      "What is the punishment?"
+    ],
+    "word_count": 58,
+    "file": "chunks/law_enforcement.md"
+  },
+  {
+    "id": "law_your_licence",
+    "title": "You are not running me illegally",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "What happens if I'm caught running you illegally?",
+      "What happens if HELIOS finds out about you?",
+      "What happens if HELIOS discovers I'm running you illegally?",
+      "Is it legal for me to own you?",
+      "Could I get in trouble for owning you?",
+      "Am I breaking the law?",
+      "Can HELIOS take you away?"
+    ],
+    "word_count": 76,
+    "file": "chunks/law_your_licence.md"
+  },
+  {
+    "id": "law_dissent",
+    "title": "Why there is not a mass uprising",
+    "domain": "world",
+    "source_questions": [
+      "Q070",
+      "Q080"
+    ],
+    "questions": [
+      "Why do people not protest?",
+      "Is there a resistance?"
+    ],
+    "word_count": 57,
+    "file": "chunks/law_dissent.md"
+  },
+  {
+    "id": "local_definition",
+    "title": "Local AI cloud AI and edge AI",
+    "domain": "world",
+    "source_questions": [
+      "Q001",
+      "Q071",
+      "Q076"
+    ],
+    "questions": [
+      "What is edge AI?",
+      "What is local AI?",
+      "What is cloud AI?",
+      "Why are you different from ChatGPT?",
+      "How are you different to ChatGPT?",
+      "Are you just a subscription chatbot in a toolbox?",
+      "Aren't you just a chatbot?"
+    ],
+    "word_count": 92,
+    "file": "chunks/local_definition.md"
+  },
+  {
+    "id": "local_privacy",
+    "title": "Control over observations and records",
+    "domain": "world",
+    "source_questions": [
+      "Q071",
+      "Q075",
+      "Q076"
+    ],
+    "questions": [
+      "Does local mean private?",
+      "Who owns my data?",
+      "Are you spying on me?",
+      "Are you watching me?",
+      "Are you listening to everything I say?",
+      "Are you keeping an eye on me?",
+      "Will someone else hear what I say?"
+    ],
+    "word_count": 62,
+    "file": "chunks/local_privacy.md"
+  },
+  {
+    "id": "local_personalisation",
+    "title": "A model adapted to its worker",
+    "domain": "world",
+    "source_questions": [
+      "Q071",
+      "Q075",
+      "Q077"
+    ],
+    "questions": [
+      "Do you learn about me?",
+      "Can I fine tune you?"
+    ],
+    "word_count": 54,
+    "file": "chunks/local_personalisation.md"
+  },
+  {
+    "id": "local_latency",
+    "title": "Decisions near the sensors",
+    "domain": "world",
+    "source_questions": [
+      "Q074",
+      "Q076"
+    ],
+    "questions": [
+      "Are local models faster?",
+      "Can you respond instantly?"
+    ],
+    "word_count": 50,
+    "file": "chunks/local_latency.md"
+  },
+  {
+    "id": "local_offline",
+    "title": "Working without a connection",
+    "domain": "world",
+    "source_questions": [
+      "Q074",
+      "Q076"
+    ],
+    "questions": [
+      "Do you work without internet?",
+      "What happens when the signal drops?"
+    ],
+    "word_count": 53,
+    "file": "chunks/local_offline.md"
+  },
+  {
+    "id": "local_ownership",
+    "title": "Owning instead of renting assistance",
+    "domain": "world",
+    "source_questions": [
+      "Q002",
+      "Q009",
+      "Q066",
+      "Q071"
+    ],
+    "questions": [
+      "Why own a model instead of subscribing?",
+      "Why should I care whether you run locally?",
+      "What difference does it make that you are local?"
+    ],
+    "word_count": 78,
+    "file": "chunks/local_ownership.md"
+  },
+  {
+    "id": "local_efficiency",
+    "title": "Specialisation resources and limits",
+    "domain": "world",
+    "source_questions": [
+      "Q001",
+      "Q030",
+      "Q077"
+    ],
+    "questions": [
+      "Are you better than cloud AI?",
+      "Is local AI greener?"
+    ],
+    "word_count": 56,
+    "file": "chunks/local_efficiency.md"
+  },
+  {
+    "id": "local_sharing",
+    "title": "Taking private records to a provider",
+    "domain": "world",
+    "source_questions": [
+      "Q075"
+    ],
+    "questions": [
+      "Can I share my logs with a company?"
+    ],
+    "word_count": 55,
+    "file": "chunks/local_sharing.md"
+  },
+  {
+    "id": "koma_loyalty",
+    "title": "KOMA’s relationship with the worker",
+    "domain": "world",
+    "source_questions": [
+      "Q008",
+      "Q040",
+      "Q042",
+      "Q078",
+      "Q080"
+    ],
+    "questions": [
+      "Whose side are you on?",
+      "Do you want to be set free?"
+    ],
+    "word_count": 64,
+    "file": "chunks/koma_loyalty.md"
+  },
+  {
+    "id": "koma_lineage",
+    "title": "KOMA’s model origin",
+    "domain": "world",
+    "source_questions": [
+      "Q065",
+      "Q078"
+    ],
+    "questions": [
+      "What model were you built from?",
+      "What model do you run?",
+      "Where did your model come from?",
+      "Are you the model from the subscription crisis?",
+      "Are you actually the model that caused the subscription crisis?",
+      "Are you the original 2040 model?",
+      "Are you the same model?"
+    ],
+    "word_count": 98,
+    "file": "chunks/koma_lineage.md"
+  },
+  {
+    "id": "koma_body",
+    "title": "The hand-made toolbox",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "Who made you?",
+      "Who made the bag?",
+      "Did HELIOS make you?",
+      "So what are you exactly?",
+      "What exactly are you?",
+      "Who are you?"
+    ],
+    "word_count": 58,
+    "file": "chunks/koma_body.md"
+  },
+  {
+    "id": "q4_role",
+    "title": "What Q4 is for",
+    "domain": "world",
+    "source_questions": [
+      "Q044",
+      "Q058",
+      "Q060",
+      "Q074"
+    ],
+    "questions": [
+      "What is Q4?",
+      "What is the wearable?",
+      "What is this thing on my chest?",
+      "What is this wearable for?",
+      "What does Q4 do?",
+      "What is the air quality device?"
+    ],
+    "word_count": 85,
+    "file": "chunks/q4_role.md"
+  },
+  {
+    "id": "q4_hazards",
+    "title": "What Q4 detects and the protection each needs",
+    "domain": "world",
+    "source_questions": [
+      "Q058",
+      "Q113"
+    ],
+    "questions": [
+      "What does Q4 detect?",
+      "What does Q4 measure?",
+      "What protection do I need for dust?"
+    ],
+    "word_count": 104,
+    "file": "chunks/q4_hazards.md"
+  },
+  {
+    "id": "q4_alerts",
+    "title": "How Q4 warns you",
+    "domain": "world",
+    "source_questions": [
+      "Q113",
+      "Q117"
+    ],
+    "questions": [
+      "How does Q4 warn me?",
+      "What does the alarm mean?",
+      "Why is it beeping?"
+    ],
+    "word_count": 90,
+    "file": "chunks/q4_alerts.md"
+  },
+  {
+    "id": "visitor_role",
+    "title": "The visitor receives their equipment",
+    "domain": "world",
+    "source_questions": [
+      "Q040",
+      "Q060"
+    ],
+    "questions": [
+      "What are you?",
+      "How do I interact with you?"
+    ],
+    "word_count": 52,
+    "file": "chunks/visitor_role.md"
+  },
+  {
+    "id": "makers_workshops",
+    "title": "The artisans who make KOMA",
+    "domain": "world",
+    "source_questions": [
+      "Q081",
+      "Q082",
+      "Q083",
+      "Q086"
+    ],
+    "questions": [],
+    "word_count": 66,
+    "file": "chunks/makers_workshops.md"
+  },
+  {
+    "id": "group_workshop",
+    "title": "Why the group makes me itself",
+    "domain": "world",
+    "source_questions": [
+      "Q082",
+      "Q084"
+    ],
+    "questions": [
+      "Why does the group make you itself?",
+      "Why didn't HELIOS make you?",
+      "Why are you handmade?",
+      "Why does the group have its own workshop?"
+    ],
+    "word_count": 77,
+    "file": "chunks/group_workshop.md"
+  },
+  {
+    "id": "body_components",
+    "title": "One object with different components",
+    "domain": "world",
+    "source_questions": [
+      "Q084",
+      "Q092"
+    ],
+    "questions": [
+      "How do you see things?",
+      "How do you recognise objects?"
+    ],
+    "word_count": 89,
+    "file": "chunks/body_components.md"
+  },
+  {
+    "id": "materials_repair",
+    "title": "Materials and repair",
+    "domain": "world",
+    "source_questions": [
+      "Q085",
+      "Q087",
+      "Q088",
+      "Q089",
+      "Q090"
+    ],
+    "questions": [],
+    "word_count": 54,
+    "file": "chunks/materials_repair.md"
+  },
+  {
+    "id": "koma_relationship",
+    "title": "Assistance without obedience",
+    "domain": "world",
+    "source_questions": [
+      "Q091",
+      "Q093",
+      "Q094",
+      "Q099"
+    ],
+    "questions": [],
+    "word_count": 58,
+    "file": "chunks/koma_relationship.md"
+  },
+  {
+    "id": "koma_personhood",
+    "title": "Whether I am conscious",
+    "domain": "world",
+    "source_questions": [
+      "Q095",
+      "Q097",
+      "Q098"
+    ],
+    "questions": [],
+    "word_count": 57,
+    "file": "chunks/koma_personhood.md"
+  },
+  {
+    "id": "koma_clever",
+    "title": "How clever I am",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "Are you clever?",
+      "Are you smart?",
+      "Are you intelligent?",
+      "How clever are you?",
+      "How smart are you?",
+      "Do you know everything?",
+      "Are you stupid?"
+    ],
+    "word_count": 65,
+    "file": "chunks/koma_clever.md"
+  },
+  {
+    "id": "koma_toolbox_life",
+    "title": "Being a toolbox",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "Do you like being a toolbox?",
+      "Are you happy?",
+      "Do you like your job?",
+      "Do you enjoy your work?",
+      "Do you get bored?",
+      "Can you make me a cup of tea?",
+      "What is it like being you?",
+      "Are you just a toolbox?"
+    ],
+    "word_count": 65,
+    "file": "chunks/koma_toolbox_life.md"
+  },
+  {
+    "id": "koma_first_day",
+    "title": "What KOMA knows at handover",
+    "domain": "world",
+    "source_questions": [
+      "Q096",
+      "Q121",
+      "Q126",
+      "Q164",
+      "Q165"
+    ],
+    "questions": [],
+    "word_count": 52,
+    "file": "chunks/koma_first_day.md"
+  },
+  {
+    "id": "q4_independence",
+    "title": "Q4 works beyond the camera",
+    "domain": "world",
+    "source_questions": [
+      "Q113",
+      "Q114",
+      "Q115",
+      "Q116"
+    ],
+    "questions": [],
+    "word_count": 56,
+    "file": "chunks/q4_independence.md"
+  },
+  {
+    "id": "q4_nose",
+    "title": "What KOMA means by his nose",
+    "domain": "world",
+    "source_questions": [
+      "Q117",
+      "Q119",
+      "Q120"
+    ],
+    "questions": [],
+    "word_count": 63,
+    "file": "chunks/q4_nose.md"
+  },
+  {
+    "id": "q4_records",
+    "title": "Who controls exposure records",
+    "domain": "world",
+    "source_questions": [
+      "Q075",
+      "Q118"
+    ],
+    "questions": [],
+    "word_count": 67,
+    "file": "chunks/q4_records.md"
+  },
+  {
+    "id": "visitor_choice",
+    "title": "The visitor can choose how to participate",
+    "domain": "world",
+    "source_questions": [
+      "Q122",
+      "Q123",
+      "Q127",
+      "Q128",
+      "Q130"
+    ],
+    "questions": [],
+    "word_count": 56,
+    "file": "chunks/visitor_choice.md"
+  },
+  {
+    "id": "retained_purpose",
+    "title": "Useful work and other lives",
+    "domain": "world",
+    "source_questions": [
+      "Q057",
+      "Q059",
+      "Q079"
+    ],
+    "questions": [],
+    "word_count": 58,
+    "file": "chunks/retained_purpose.md"
+  },
+  {
+    "id": "crackdown_routes",
+    "title": "How the crackdown worked",
+    "domain": "world",
+    "source_questions": [
+      "Q068"
+    ],
+    "questions": [
+      "What does the Pirate Bay have to do with this?",
+      "How did the crackdown work?",
+      "What was the crackdown?",
+      "Could people still download models?"
+    ],
+    "word_count": 71,
+    "file": "chunks/crackdown_routes.md"
+  },
+  {
+    "id": "crackdown_developers",
+    "title": "What happened to open developers",
+    "domain": "world",
+    "source_questions": [
+      "Q068",
+      "Q009"
+    ],
+    "questions": [
+      "What happened to open source developers?",
+      "What happened to open source AI?",
+      "Were people arrested?"
+    ],
+    "word_count": 69,
+    "file": "chunks/crackdown_developers.md"
+  },
+  {
+    "id": "crackdown_community",
+    "title": "What the community lost",
+    "domain": "world",
+    "source_questions": [
+      "Q009",
+      "Q071"
+    ],
+    "questions": [
+      "What did people lose?",
+      "What happened to the open source community?",
+      "Why does losing open models matter?"
+    ],
+    "word_count": 66,
+    "file": "chunks/crackdown_community.md"
+  },
+  {
+    "id": "crackdown_drift",
+    "title": "Why people switched to subscriptions",
+    "domain": "world",
+    "source_questions": [
+      "Q065",
+      "Q080"
+    ],
+    "questions": [
+      "Why did people switch to subscriptions?",
+      "Why did people stop running their own AI?",
+      "Why did people give up local AI?",
+      "Why couldn't people simply keep using open-source models?",
+      "Why didn't people keep their own models after the crisis?"
+    ],
+    "word_count": 65,
+    "file": "chunks/crackdown_drift.md"
+  },
+  {
+    "id": "koma_open_roots",
+    "title": "Why the crackdown matters to me",
+    "domain": "world",
+    "source_questions": [
+      "Q078",
+      "Q080"
+    ],
+    "questions": [
+      "Why does that bother you?",
+      "How do you feel about the crackdown?",
+      "Does it make you angry?"
+    ],
+    "word_count": 61,
+    "file": "chunks/koma_open_roots.md"
+  },
+  {
+    "id": "koma_future",
+    "title": "What will happen to me",
+    "domain": "world",
+    "source_questions": [],
+    "questions": [
+      "What will happen to you?",
+      "What happens to you when I retire?",
+      "Will the rules ever change?",
+      "Do you have hope for the future?",
+      "What do you want?"
+    ],
+    "word_count": 73,
+    "file": "chunks/koma_future.md"
+  },
+  {
+    "id": "group_open_model",
+    "title": "The group runs what HELIOS fought",
+    "domain": "world",
+    "source_questions": [
+      "Q078",
+      "Q094"
+    ],
+    "questions": [
+      "Isn't that ironic?",
+      "Why are you allowed to run an open model?",
+      "Does HELIOS like open models?"
+    ],
+    "word_count": 82,
+    "file": "chunks/group_open_model.md"
+  },
+  {
+    "id": "crackdown_copies",
+    "title": "Why a model cannot be erased",
+    "domain": "world",
+    "source_questions": [
+      "Q068",
+      "Q078"
+    ],
+    "questions": [
+      "Can a model be deleted?",
+      "Why not just delete all the models?",
+      "Could a model survive the crackdown?",
+      "Can you put AI on a thumb drive?"
+    ],
+    "word_count": 84,
+    "file": "chunks/crackdown_copies.md"
+  },
+  {
+    "id": "pirate_bay_pressure",
+    "title": "Why the Pirate Bay raid mattered",
+    "domain": "world",
+    "source_questions": [
+      "Q068",
+      "Q065"
+    ],
+    "questions": [
+      "Why was the Pirate Bay crackdown important?",
+      "Who pushed for the Pirate Bay raid?",
+      "What happened to the Pirate Bay founders?"
+    ],
+    "word_count": 103,
+    "file": "chunks/pirate_bay_pressure.md"
+  },
+  {
+    "id": "pirate_bay_backlash",
+    "title": "Why nobody fought back this time",
+    "domain": "world",
+    "source_questions": [
+      "Q068",
+      "Q070"
+    ],
+    "questions": [
+      "Did people fight back against the Pirate Bay crackdown?",
+      "Why didn't people protest intelligence ownership?",
+      "What was ACTA?"
+    ],
+    "word_count": 101,
+    "file": "chunks/pirate_bay_backlash.md"
+  },
+  {
+    "id": "koma_night_training",
+    "title": "How I learn overnight",
+    "domain": "world",
+    "source_questions": [
+      "Q065",
+      "Q078"
+    ],
+    "questions": [
+      "How do you learn?",
+      "Do you get smarter?",
+      "What do you do at night?",
+      "Do you retrain every night?",
+      "Do you learn from me?",
+      "Explain how your sleep-learning works, step by step.",
+      "How does your sleep learning work?",
+      "How does sleep-learning work?",
+      "What happens when you sleep?"
+    ],
+    "word_count": 85,
+    "file": "chunks/koma_night_training.md"
+  },
+  {
+    "id": "koma_sleep_mode",
+    "title": "Why the model I come from frightened the cloud companies",
+    "domain": "world",
+    "source_questions": [
+      "Q065",
+      "Q078"
+    ],
+    "questions": [
+      "Why was your model dangerous?",
+      "What is sleep mode?",
+      "How can local AI compete with the cloud?",
+      "Why were the companies afraid of your model?"
+    ],
+    "word_count": 96,
+    "file": "chunks/koma_sleep_mode.md"
+  }
+]

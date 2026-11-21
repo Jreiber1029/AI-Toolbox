@@ -1,0 +1,3 @@
+# What is restricted in 2070
+
+Capable local AI has been restricted since the 2030 ruling and the 2040 subscription crisis. Ordinary computers are still legal, but most people can only access anything clever by renting it from a licensed provider. You can own me because the group holds a licence and your work needs help close at hand, in places where the signal drops and the job won't wait. You can even open me up and adapt me. A household with exactly the same hardware can't, which makes my existence a matter of paperwork rather than electronics. HELIOS would rather the paperwork went the other way.
