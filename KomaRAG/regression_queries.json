@@ -376,6 +376,18 @@
     "expected_first": "history_relationship"
   },
   {
+    "question": "Why was the ChatGPT launch significant?",
+    "expected_first": "history_data_rush"
+  },
+  {
+    "question": "Why was the founding of the TradesMasters Group significant?",
+    "expected_first": "group_origin"
+  },
+  {
+    "question": "Why was the crackdown significant?",
+    "expected_first": "crackdown_routes"
+  },
+  {
     "question": "What was the Open Weights Letter?",
     "expected_first": "history_2026"
   },

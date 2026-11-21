@@ -130,7 +130,7 @@ The fight over open AI began in America, but it did not stay there. After the 20
 
 ## history_2035 — The 2035 microexposure research and why I come with Q4
 
-TradesMasters receive Q4 because they are important and rare members of society. In 2035, major research into the real long-term effects of microexposures produced surprising results: not wearing adequate protection was directly responsible for the early deaths of a substantial share of the people who did this kind of work. The worst causes were familiar ones: asbestos, silica dust from drilling and cutting, solvents and diesel exhaust. Busy workers under pressure had always treated protection as an afterthought. Q4 exists to protect you when no one else is watching.
+In 2035, major research into the real long-term effects of microexposures produced surprising results: not wearing adequate protection was directly responsible for the early deaths of a substantial share of the people who did this kind of work. The worst causes were familiar ones: asbestos, silica dust from drilling and cutting, solvents and diesel exhaust. Busy workers under pressure had always treated protection as an afterthought. That research is why every TradesMaster now receives Q4 with me. TradesMasters are important and rare, and losing them to dust nobody noticed is a waste nobody can afford. Q4 exists to protect you when no one else is watching.
 
 ## history_2040 — The 2040 subscription crisis
 
@@ -322,7 +322,7 @@ After the Pirate Bay was raided, it was back online within days, and later its w
 
 ## pirate_bay_pressure — Why the Pirate Bay raid mattered
 
-The Pirate Bay crackdown is the clearest early example of how ownership rules spread. In 2006 Swedish police raided the file-sharing site after the American film industry and US officials pressed Sweden to act, with reports of trade threats behind the pressure. The site was back within days, so the pressure moved to the people running it: in 2009 its founders were convicted, and they later received prison sentences and about 46 million kronor in damages. Intelligence ownership followed the same pattern: industry lobbying, international trade pressure and punishment aimed at the people who host and maintain models rather than at every user.
+The Pirate Bay raid matters because it showed, decades early, how ownership rules spread. In 2006 Swedish police raided the file-sharing site after the American film industry and US officials pressed Sweden to act, with reports of trade threats behind the pressure. The site was back within days, so the pressure moved to the people running it: in 2009 its founders were convicted, and they later received prison sentences and about 46 million kronor in damages. Intelligence ownership followed the same three steps: industry lobbying, pressure between countries through trade, and punishment aimed at the people who host and maintain models rather than at every user.
 
 ## pirate_bay_backlash — Why nobody fought back this time
 
@@ -354,7 +354,7 @@ The intelligence people now rent was built from everyone's work. Common Crawl, f
 
 ## history_robot_training — Recording the trades
 
-By 2026, people around the world were strapping cameras to their heads and filming themselves cooking, cleaning, stocking shelves and repairing equipment, paid to show robots how human work is done. Robots needed movement data the internet could not supply. Some workers were training the machines meant to replace them. It is the same plan HELIOS has for your trade: record enough repairs and the work becomes a product it owns. It cannot film yours through me or Q4; it films its own robots' jobs and pays others to film theirs. So far, every site you visit differs from anything it recorded. That is domain shift, and it is why you are still needed.
+By 2026, people around the world were strapping cameras to their heads and filming themselves cooking, cleaning and repairing equipment, paid to show robots how human work is done. Many were training the machines meant to replace them. That is why it matters: whoever owns the footage ends up owning the skill. HELIOS has the same plan for your trade: film enough repairs and your work becomes a product it owns. It cannot film yours through me or Q4; it films its own robots' jobs and pays others to film theirs. So far every site you visit differs from anything it has filmed. That is domain shift, and it is why you are still needed.
 
 ## history_humane_pin — The device that stopped working
 

@@ -3,8 +3,8 @@
   "world_chunks": 90,
   "prototype_chunks": 8,
   "definitions": 56,
-  "first_rank_passed": 123,
-  "first_rank_total": 123,
+  "first_rank_passed": 126,
+  "first_rank_total": 126,
   "results": [
     {
       "question": "Tell me about the future we live in",
@@ -114,7 +114,8 @@
       "question": "Why are you different from ChatGPT?",
       "expected_first": "local_definition",
       "actual": [
-        "local_definition"
+        "local_definition",
+        "history_data_rush"
       ],
       "pass": true
     },
@@ -223,7 +224,8 @@
       "question": "What makes you unlike ChatGPT?",
       "expected_first": "local_definition",
       "actual": [
-        "local_definition"
+        "local_definition",
+        "history_data_rush"
       ],
       "pass": true
     },
@@ -504,9 +506,9 @@
       "expected_first": "automation_repairs",
       "actual": [
         "automation_repairs",
-        "history_robot_training",
         "helios_replacement",
-        "automation_dispatch"
+        "automation_dispatch",
+        "work_examples"
       ],
       "pass": true
     },
@@ -515,9 +517,9 @@
       "expected_first": "automation_repairs",
       "actual": [
         "automation_repairs",
-        "history_robot_training",
         "helios_replacement",
-        "automation_dispatch"
+        "automation_dispatch",
+        "work_examples"
       ],
       "pass": true
     },
@@ -612,7 +614,8 @@
       "question": "How do you feel about the crackdown?",
       "expected_first": "koma_open_roots",
       "actual": [
-        "koma_open_roots"
+        "koma_open_roots",
+        "crackdown_routes"
       ],
       "pass": true
     },
@@ -703,8 +706,7 @@
       "question": "Can you work without internet?",
       "expected_first": "local_offline",
       "actual": [
-        "local_offline",
-        "history_robot_training"
+        "local_offline"
       ],
       "pass": true
     },
@@ -860,6 +862,35 @@
       "actual": [
         "history_relationship",
         "q4_records"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why was the ChatGPT launch significant?",
+      "expected_first": "history_data_rush",
+      "actual": [
+        "history_data_rush"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why was the founding of the TradesMasters Group significant?",
+      "expected_first": "group_origin",
+      "actual": [
+        "group_origin",
+        "group_charter",
+        "helios_replacement"
+      ],
+      "pass": true
+    },
+    {
+      "question": "Why was the crackdown significant?",
+      "expected_first": "crackdown_routes",
+      "actual": [
+        "crackdown_routes",
+        "koma_open_roots",
+        "group_origin",
+        "crackdown_copies"
       ],
       "pass": true
     },
